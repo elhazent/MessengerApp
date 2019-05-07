@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UserFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="@string/search"
+        android:id="@+id/searchuser"
+        android:layout_height="wrap_content" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@id/searchuser"
+        android:id="@+id/recyclerUser"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

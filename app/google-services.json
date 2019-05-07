@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "618294802558",
+    "firebase_url": "https://messenger-c8880.firebaseio.com",
+    "project_id": "messenger-c8880",
+    "storage_bucket": "messenger-c8880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618294802558:android:71cc5d616aa492ee",
+        "android_client_info": {
+          "package_name": "com.elhazent.picodiploma.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618294802558-5j6oughe67s3ir645a5usqj3p2phi2s6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elhazent.picodiploma.messenger",
+            "certificate_hash": "89e95a32204792c937965c47d7c7d4f44abbfc34"
+          }
+        },
+        {
+          "client_id": "618294802558-3ojeoaiabpvhqmu14um21o3ac8hij32l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq531ZlTmTWdYLZBO498GwvYJ8SUQfqzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618294802558-3ojeoaiabpvhqmu14um21o3ac8hij32l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

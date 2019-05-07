@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Messenger</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="profile">profile</string>
+    <string name="username">username</string>
+    <string name="search">search</string>
+    <string name="forgot_yout_password"><u>Forgot yout Password ?</u></string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_email">Enter your Email :</string>
+</resources>

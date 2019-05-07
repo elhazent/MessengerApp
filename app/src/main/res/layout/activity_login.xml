@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bt"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:layout_width="280dp"
+        android:hint="Email"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edt_email_login"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_above="@id/edt_password_login"
+        android:background="@drawable/register"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="280dp"
+        android:hint="Password"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:textColorHint="@android:color/black"
+        android:paddingBottom="10dp"
+        android:id="@+id/edt_password_login"
+        android:layout_centerInParent="true"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/register"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/forgot_yout_password"
+        android:layout_below="@id/edt_password_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:id="@+id/forgotpass"
+        android:textColor="#E8FFFFFF"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonregister"
+        android:textStyle="bold"
+        android:id="@+id/btn_login"
+        android:layout_below="@id/forgotpass"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
